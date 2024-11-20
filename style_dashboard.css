@@ -1,0 +1,59 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    to right,
+    #3498db,
+    #2f3640
+  ); /* Gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.dashboard-container {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly transparent white background */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  margin: 0; /* Remove margin for full centering */
+}
+
+.dashboard-container h1 {
+  color: #3498db; /* Blue color for the heading */
+  font-size: 36px; /* Larger font size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.dashboard-container p {
+  font-size: 18px; /* Adjust the font size of the paragraph */
+  color: #555; /* Softer color for the paragraph text */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #3498db, #2f3640); /* Gradient button */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.logout-button:hover {
+  background: linear-gradient(
+    to right,
+    #2f3640,
+    #3498db
+  ); /* Reverse gradient on hover */
+  transform: translateY(-2px);
+}
